@@ -1,0 +1,16 @@
+﻿<Window x:Class="_01._04._Lab_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01._04._Lab_2"
+        mc:Ignorable="d"
+        Title="Factorial calculator" Height="600" Width="1000">
+    <Grid>
+        
+        <TextBox  x:Name="n" TextAlignment="Center" Width="200px" Height="50px" Margin="300,79,300,305" Text="Enter the number here"/>
+        <TextBlock x:Name="lblResult" Width="400px" Height="50px" HorizontalAlignment="Center" TextAlignment="Center" Text="Result" Margin="0,242,0,292"/>
+
+        <Button x:Name="btnCalculate_Click" Width="200px" Height="50px" Content="Enter" Margin="400,287,400,247" Click="btnCalculate_Click_1"/>
+    </Grid>
+</Window>
